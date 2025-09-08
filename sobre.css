@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    display: block;
+    margin: 30px auto 10px auto;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.conteudo {
+    background: #410303;
+    color: #222;
+    padding: 24px 32px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px #0002;
+    max-width: 600px;
+    text-align: center;
+}
