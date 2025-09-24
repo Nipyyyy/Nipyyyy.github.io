@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     margin: 0 auto;
     padding: 0;
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'Cinzel', Arial, sans-serif;
     background: #3d0707;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ figure {
 
 figcaption {
     margin-top: 12px;
-    font-size: 1.1em;
+    font-size: 2.1em;
     color: #ffffff;
     font-weight: 500;
     text-align: center;
