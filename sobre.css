@@ -64,7 +64,7 @@ figure img {
     margin: 0 auto;
 }
 
-ul, p, address, dl {
+ul, p, address, dl, li {
     color: #fff;
 }
 
@@ -112,7 +112,7 @@ a {
     margin-left: 10px;
 }
 
-.rodape {
+footer.rodape {
     background: rgba(255,255,255,0.08);
     color: #fff;
     text-align: center;

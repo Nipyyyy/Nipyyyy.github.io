@@ -23,6 +23,9 @@ ul {
     color: #fff;
     font-weight: bold;
 }
+ul, p, address, dl, li {
+    color: #fff;
+}
 a {
     color: #fff;
     text-decoration: underline;
@@ -40,6 +43,17 @@ iframe {
 }
 .container-imagens {
     margin-bottom: 32px;
+}
+footer.rodape {
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: 32px;
+}
+.rodape__logo {
+    width: 60px;
+    vertical-align: middle;
 }
 .video
 {
