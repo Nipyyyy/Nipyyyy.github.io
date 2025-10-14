@@ -1,20 +1,40 @@
 body {
-    background: radial-gradient(circle at top left, #000000 0%, #350202 60%, #770000 100%);
-    font-family: 'Cinzel', 'Segoe UI', Arial, sans-serif;
-    margin: 0 auto;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 940px;
+   width: 940px;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 16px;
+   line-height: 1.5;
+   font-family: "Cinzel", "Helvetica", "Lucida Grande", sans-serif;
+   color: #b30000;
+   background-color: #fff0f0;
 }
 .logo {
-    width: 400px;
-    height: 400px;
-    margin-top: 32px;
-    margin-bottom: 12px;
-    display: block;
+   width: 120px;
+   display: block;
+   margin: 0 auto 20px auto;
+}
+h1, h2 {
+   text-align: center;
+   color: #b30000;
+}
+ul {
+   background: #ffe5e5;
+   border-radius: 8px;
+   padding: 20px;
+   margin: 20px auto;
+   width: 80%;
+   color: #b30000;
+   font-weight: bold;
+}
+a {
+   color: #b30000;
+   text-decoration: underline;
+}
+iframe {
+   display: block;
+   margin: 20px auto;
+   border: 2px solid #b30000;
+   border-radius: 8px;
 }
 
 .banner {
@@ -141,9 +161,9 @@ a:hover {
 
 .botoes {
     display: flex;
-    flex-direction: column; /* Deixa os botões em coluna */
+    flex-direction: column; 
     gap: 18px;
-    align-items: center;    /* Centraliza os botões na coluna */
+    align-items: center;    
     margin: 32px 0 24px 0;
 }
 

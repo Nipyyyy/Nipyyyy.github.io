@@ -1,43 +1,65 @@
 body {
-    min-height: 100vh;
-    margin: 0 auto;
-    padding: 0;
-    font-family: 'Cinzel', Arial, sans-serif;
-    background: #3d0707;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Cinzel", "Helvetica", "Lucida Grande", sans-serif;
+    color: #b30000;
+    background-color: #fff0f0;
+}
+
+.logo {
+    width: 120px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.titulo {
+    padding: 10px;
+    font-size: 32px;
+    background-color: #ffe5e5;
+    color: #b30000;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.subtitulo {
+    border-bottom: 2px solid #b30000;
+    color: #b30000;
+    margin-top: 40px;
+    font-size: 24px;
 }
 
 figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 40px 0 20px 0;
-    padding: 0;
-    width: 100%;
-}
-
-.banner {
-    max-width: 90%;
-    height: auto;
-    border-radius: 16px;
-    box-shadow: 0 4px 24px #ff0000;
-    display: block;
-    margin: 0 auto;
-    border: 3px solid #410303;
+    margin: 30px auto;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff5f5;
+    border: 1px solid #b30000;
+    border-radius: 8px;
 }
 
 figcaption {
-    margin-top: 12px;
-    font-size: 2.1em;
-    color: #ffffff;
-    font-weight: 500;
+    margin-top: 10px;
+    color: #b30000;
+}
+
+.matriz-xucraogames {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.irmaos-xucrao {
+    width: 275px;
+    float: right;
+}
+
+.rodape {
     text-align: center;
-    letter-spacing: 1px;
+    color: #b30000;
+    margin-top: 40px;
 }
 
 h1, h2 {
@@ -68,15 +90,6 @@ p {
     line-height: 1.7;
 }
 
-.creditos {
-    text-align: center;
-    margin: 32px 0 20px 0;
-    font-size: 1em;
-    color: #a10000;
-    letter-spacing: 1px;
-    opacity: 0.8;
-}
-
 .conteudo a {
     color: #ff0000;
     font-weight: 700;
@@ -89,9 +102,9 @@ p {
 
 .botoes {
     display: flex;
-    flex-direction: column; /* Deixa os botões em coluna */
+    flex-direction: column; 
     gap: 18px;
-    align-items: center;    /* Centraliza os botões na coluna */
+    align-items: center;   
     margin: 32px 0 24px 0;
 }
 
@@ -176,6 +189,21 @@ p {
     background: #ffffff00;
     object-fit: contain;
     filter: drop-shadow(0 0 30px #ff0000) drop-shadow(0 0 12px rgb(255, 0, 191));
+}
+
+.contato_subtitulo {
+   display: inline-block;
+}
+
+.contato_secao {
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+.contato_info{
+    margin: 16px 0 24px;
+    padding-left: 32px;
 }
 
 @media (max-width: 900px) {
