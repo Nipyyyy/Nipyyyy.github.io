@@ -26,7 +26,7 @@ body {
 .titulo {
     padding: 10px 32px;
     font-size: 32px;
-    background-color: rgba(255,255,255,0.08);
+    background-color: rgb(63, 1, 1);
     color: #fff;
     border-radius: 12px;
     margin: 0;
@@ -57,11 +57,28 @@ figure img {
     width: 100%;
 }
 
+.irmaos-xucrao {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    max-width: 700px;
+    margin: 32px auto;
+    float: none;
+}
+
 .irmaos-xucrao img {
-    width: 100%;
+    width: 220px;
     max-width: 220px;
     display: block;
-    margin: 0 auto;
+    margin: 0;
+    border-radius: 12px;
+}
+
+.irmaos-xucrao figcaption {
+    margin-top: 10px;
+    color: #fff;
+    text-align: left;
 }
 
 .matriz-xucraogames img {
