@@ -1,3 +1,46 @@
+body {
+    background: #b30000;
+    color: #fff;
+    font-family: "Cinzel", "Helvetica", "Lucida Grande", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    width: 120px;
+    display: block;
+    margin: 32px auto 16px auto;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: #fff;
+}
+ul {
+    background: rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    color: #fff;
+    font-weight: bold;
+}
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+.titulo-imagens {
+    color: #fff;
+    text-align: center;
+    margin-top: 16px;
+}
+.container-imagens {
+    margin-bottom: 32px;
+}
 .video
 {
     display: block;
