@@ -1,67 +1,10 @@
-body {
-    background: #550000;
-    color: #fff;
-    font-family: "Cinzel", "Helvetica", "Lucida Grande", sans-serif;
-    margin: 0;
-    padding: 0;
-}
-.logo {
-    width: 120px;
-    display: block;
-    margin: 32px auto 16px auto;
-}
-h1, h2, h3 {
-    text-align: center;
-    color: #fff;
-}
-ul {
-    background: rgba(255,255,255,0.08);
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px auto;
-    width: 80%;
-    color: #fff;
-    font-weight: bold;
-}
-ul, p, address, dl, li {
-    color: #fff;
-}
-a {
-    color: #fff;
-    text-decoration: underline;
-}
-iframe {
-    display: block;
-    margin: 20px auto;
-    border: 2px solid #fff;
-    border-radius: 8px;
-}
-.titulo-imagens {
-    color: #fff;
-    text-align: center;
-    margin-top: 16px;
-}
-.container-imagens {
-    margin-bottom: 32px;
-}
-footer.rodape {
-    background: rgba(255,255,255,0.08);
-    color: #fff;
-    text-align: center;
-    padding: 16px 0;
-    margin-top: 32px;
-}
-.rodape__logo {
-    width: 60px;
-    vertical-align: middle;
-}
 .video
 {
     display: block;
+
 }
 
 .jogo
 {
     display: block;
 }
-
